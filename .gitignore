@@ -1,0 +1,43 @@
+# Compiled class files
+*.class
+
+# Maven target folder
+/target/
+
+# Logs
+*.log
+
+# IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test output folders
+/test-output/
+/surefire-reports/
+/*.jar
+/*.war
+/*.zip
+
+# Environment and config
+.env
+*.local
+*.properties.local
+
+# Backup & temp files
+*~
+*.swp
+*.bak
+*.tmp
+*.orig
