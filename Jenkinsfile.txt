@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven 3.9.6'     // Make sure this matches the Maven name in Jenkins global config
+        jdk 'Java 17'           // Make sure this matches the JDK name in Jenkins
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/Abin-Isaac/LoginAutomation.git', branch: 'main'
+            }
+        }
+
+        stage('Build & Test') {
+            steps {
+                sh 'mvn clean test'
+            }
+        }
+    }
+
+    post {
+        always {
+            junit '**/test-output/testng-results.xml'
+        }
+    }
+}
