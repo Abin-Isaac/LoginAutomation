@@ -22,7 +22,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'test-output/**/*.*', fingerprint: true
+            archiveArtifacts artifacts: '**/*.*', fingerprint: true
 
         }
     }
