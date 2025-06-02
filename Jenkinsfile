@@ -22,7 +22,8 @@ pipeline {
 
     post {
         always {
-            junit '**/test-output/testng-results.xml'
+            archiveArtifacts artifacts: 'test-output/**/*.*', fingerprint: true
+
         }
     }
 }
