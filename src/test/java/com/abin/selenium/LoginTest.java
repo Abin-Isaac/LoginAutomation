@@ -4,6 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class LoginTest {
 
@@ -24,7 +27,7 @@ public class LoginTest {
             e.printStackTrace(); // Optional: log or handle it as needed
         }
 
-        // Add your test steps here
+        WebElement username = driver.findElement(By.name("username")).sendKeys("admin");
     }
 
     @AfterClass
