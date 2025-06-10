@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🔐 LoginAutomation | Selenium TestNG Framework
 
