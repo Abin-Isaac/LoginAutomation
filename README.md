@@ -1,10 +1,8 @@
 
----
 
-```markdown
 # 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
-# Selenium Automation Framework 🚀
+## Selenium Automation Framework 🚀
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
@@ -12,7 +10,6 @@
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 
-This project demonstrates a modular Selenium automation framework using **TestNG**, **WebDriverManager**, and **Page Object Model (POM)** principles.
 
 ---
 
