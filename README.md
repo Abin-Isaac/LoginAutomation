@@ -75,7 +75,7 @@ LoginAutomation/
 
 ---
 
-## 🎯 Highlights for Recruiters
+## 🎯 Highlights
 
 * Clean code with proper wait handling and assertions
 * Modular structure with **utility class for reusability**
@@ -88,7 +88,7 @@ LoginAutomation/
 ## 📬 Contact
 
 **Abin Isaac**
-📧 [abinisaac2000@gmail.com](mailto:abinisaac2000@gmail.com)
+📧 [abinisaac111@gmail.com](mailto:abinisaac111@gmail.com)
 🌐 [LinkedIn](https://www.linkedin.com/in/abin-isaac)
 
 ---
