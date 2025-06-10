@@ -1,103 +1,96 @@
+
+---
+
 ```markdown
-# 🔐 LoginAutomation | Selenium TestNG Framework
+# 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
-Automated UI testing project using **Selenium WebDriver**, **TestNG**, and **Maven** to validate login workflows for sample applications like **OrangeHRM** and **Facebook**.
+[![Maven Build](https://img.shields.io/badge/build-passing-brightgreen)](https://maven.apache.org/)
+[![Java](https://img.shields.io/badge/Java-17-blue)](https://www.oracle.com/java/)
+[![Selenium](https://img.shields.io/badge/Selenium-4.18.1-green)](https://www.selenium.dev/)
+[![TestNG](https://img.shields.io/badge/TestNG-7.1.0-yellow)](https://testng.org/doc/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## 📌 Project Overview
-
-This framework was created to demonstrate a structured and scalable approach to browser automation. It focuses on:
-
-- ✅ Cross-browser login testing
-- 🧪 Positive and negative test cases
-- 🧩 Page element synchronization using **Explicit Waits**
-- 📁 Maven integration for dependency management and build execution
-- 🧰 Reusability via utility methods
+This project demonstrates a modular Selenium automation framework using **TestNG**, **WebDriverManager**, and **Maven**, built to test login functionality across different web applications (OrangeHRM and Facebook).
 
 ---
 
-## 🧪 Technologies Used
-
-| Tool / Library        | Purpose                         |
-|-----------------------|---------------------------------|
-| Selenium WebDriver    | Browser automation              |
-| TestNG                | Test structure and assertions   |
-| Maven                 | Build and dependency management |
-| WebDriverManager      | Driver management               |
-| Git / GitHub          | Version control                 |
-| Java 17               | Programming language            |
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 
 LoginAutomation/
 │
 ├── src/
-│   ├── test/
-│   │   ├── java/
-│   │   │   ├── com.abin.test.orangehrm/
-│   │   │   │   └── OrangeHRMLoginTest.java
-│   │   │   ├── com.abin.test.facebook/
-│   │   │   │   └── FacebookLoginTest.java
-│   │   │   └── demo.util/
-│   │   │       └── DemoUtils.java
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── demo/
+│   │               └── util/
+│   │                   └── DemoUtils.java        # Utility methods (pause, reusable functions)
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── abin/
+│                   └── test/
+│                       ├── orangehrm/
+│                       │   └── OrangeHRMLoginTest.java
+│                       └── facebook/
+│                           └── FacebookLoginTest.java
 │
-├── testng-orangehrm.xml
-├── testng-facebook.xml
-├── pom.xml
-└── README.md
+├── testng-orangehrm.xml                           # Runs only OrangeHRM login tests
+├── testng-facebook.xml                            # Runs only Facebook login tests
+├── pom.xml                                        # Maven config with dependencies and build plugins
+└── README.md                                      # Project documentation
 
 ````
 
 ---
 
-## 🚀 How to Run the Tests
+## 🧰 Tech Stack
 
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/Abin-Isaac/LoginAutomation.git
-   cd LoginAutomation
+- **Java 17**
+- **Selenium 4.18.1**
+- **TestNG 7.1.0**
+- **WebDriverManager 5.8.0**
+- **Maven**
+- **SLF4J (Simple Logging)**
+
+---
+
+## 🧪 Features
+
+- ✅ Modular test classes for multiple websites
+- 🔁 Reusable utility methods (`DemoUtils`) for pause and enhancements
+- 🔍 Explicit waits using `WebDriverWait` and `ExpectedConditions`
+- 📄 Separate TestNG suite XML files to run tests individually
+- 📦 Clean project structure to support scalability and collaboration
+- 💥 Built-in assertions to validate login scenarios (valid and invalid)
+- 💡 Easily extendable for CI tools like Jenkins or GitHub Actions
+
+---
+
+## 🚀 How to Run
+
+Run specific test suite from command line:
+
+```bash
+# OrangeHRM Tests
+mvn test -DsuiteXmlFile=testng-orangehrm.xml
+
+# Facebook Tests
+mvn test -DsuiteXmlFile=testng-facebook.xml
 ````
 
-2. **Run OrangeHRM tests**:
+---
 
-   ```bash
-   mvn test -DsuiteXmlFile=testng-orangehrm.xml
-   ```
+## 👤 About Me
 
-3. **Run Facebook tests**:
+Hi, I’m **Abin Isaac**, a passionate QA professional focused on building reliable and maintainable automation solutions. I believe testing is not just about finding bugs — it’s about building confidence.
 
-   ```bash
-   mvn test -DsuiteXmlFile=testng-facebook.xml
-   ```
+🧠 **Think it. Test it. Talk it — with T3.**
+This project is part of my continuous journey to refine automation skills, explore real-world testing challenges, and share practical QA insights with the community.
+
+🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/abin-isaac/)
 
 ---
 
-## 🎯 Highlights
-
-* Clean code with proper wait handling and assertions
-* Modular structure with **utility class for reusability**
-* Professional use of `@BeforeClass`, `@AfterClass`, and proper teardown
-* TestNG `xml` files used for **targeted test execution**
-* Demonstrates **real-world testing scenarios** like login failure, wait handling, and dynamic element checks
-
----
-
-## 📬 Contact
-
-**Abin Isaac**
-📧 [abinisaac111@gmail.com](mailto:abinisaac111@gmail.com)
-🌐 [LinkedIn](https://www.linkedin.com/in/abin-isaac)
-
----
-
-> *“Think it. Test it. Talk it — with T3.”*
-
-```
-
----
-
-Let me know if you want to include screenshots, test result samples, or CI tools like Jenkins.
-```
