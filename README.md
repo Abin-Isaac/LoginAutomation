@@ -66,7 +66,22 @@ LoginAutomation/
 - 💥 Built-in assertions to validate login scenarios (valid and invalid)
 - 💡 Easily extendable for CI tools like Jenkins or GitHub Actions
 
+
 ---
+
+## ✍️ T3 QA Journal Highlights
+_Think it. Test it. Talk it — with T3._
+
+As part of my testing journey, I document key learnings and reflections under the **T3 QA Journal** initiative. Here are a few highlights inspired by this project:
+
+- 🔍 **Why verifying UI isn't enough — What OrangeHRM taught me about invisible bugs.**
+- ⚠️ **The importance of waiting smartly: How I moved from Thread.sleep() to WebDriverWait.**
+- 🧠 **Reusable utilities: How a single `DemoUtils.pause()` made debugging friendlier.**
+
+> 📌 You can catch my weekly posts on [LinkedIn](https://www.linkedin.com/in/abin-isaac) under the tag `#T3withAbin`.
+
+---
+
 
 ## 🚀 How to Run
 
