@@ -1,0 +1,7 @@
+<suite name="Facebook Test Suite">
+  <test name="Facebook Login Test">
+    <classes>
+      <class name="com.abin.test.facebook.FacebookLoginTest"/>
+    </classes>
+  </test>
+</suite>

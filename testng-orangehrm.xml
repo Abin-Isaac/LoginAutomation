@@ -1,0 +1,7 @@
+<suite name="OrangeHRM Test Suite">
+  <test name="OrangeHRM Login Test">
+    <classes>
+      <class name="com.abin.test.orangehrm.OrangeHRMLoginTest"/>
+    </classes>
+  </test>
+</suite>
