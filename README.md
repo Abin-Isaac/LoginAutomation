@@ -78,7 +78,7 @@ As part of my testing journey, I document key learnings and reflections under th
 - ⚠️ **The importance of waiting smartly: How I moved from Thread.sleep() to WebDriverWait.**
 - 🧠 **Reusable utilities: How a single `DemoUtils.pause()` made debugging friendlier.**
 
-> 📌 You can catch my weekly posts on [LinkedIn](https://www.linkedin.com/in/abin-isaac) under the tag `#T3withAbin`.
+> 📌 You can catch my weekly posts on [LinkedIn](https://www.linkedin.com/in/abin-isaac) under the tag `#abiNwriteS` and `T3` .
 
 ---
 
