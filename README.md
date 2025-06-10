@@ -4,11 +4,14 @@
 ```markdown
 # 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
-[![Maven Build](https://img.shields.io/badge/build-passing-brightgreen)](https://maven.apache.org/)
-[![Java](https://img.shields.io/badge/Java-17-blue)](https://www.oracle.com/java/)
-[![Selenium](https://img.shields.io/badge/Selenium-4.18.1-green)](https://www.selenium.dev/)
-[![TestNG](https://img.shields.io/badge/TestNG-7.1.0-yellow)](https://testng.org/doc/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# Selenium Automation Framework 🚀
+
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+[![TestNG](https://img.shields.io/badge/TestNG-FF6347?style=for-the-badge&logo=testng&logoColor=white)](https://testng.org/)
+[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 
 This project demonstrates a modular Selenium automation framework using **TestNG**, **WebDriverManager**, and **Maven**, built to test login functionality across different web applications (OrangeHRM and Facebook).
 
