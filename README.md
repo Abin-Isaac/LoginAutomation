@@ -1,5 +1,3 @@
-Here’s a professional `README.md` tailored for your **LoginAutomation** project, highlighting your test automation skills in a way that’s **recruiter-friendly**:
-
 ---
 
 ```markdown
