@@ -91,6 +91,7 @@ mvn test -DsuiteXmlFile=testng-facebook.xml
 I'm extending this framework as part of a focused 6-day QA enhancement sprint. Here's what’s planned and currently in development:
 
 📂 `sql-testing/` – Realistic SQL queries and test validation
+
 📂 `regression_suite/` – Refactored flows for regression automation
 📂 `performance/` – JMeter-based load testing on login API
 📂 `hybrid-approach/` – Combining manual + automated test flows
@@ -110,41 +111,3 @@ Hi, I’m **Abin Isaac**, a QA Automation Engineer with 4 years of experience, i
 🎯 My goal is to keep evolving as a tester — by thinking deeply, testing smartly, and sharing openly.
 
 📬 Let’s connect: [LinkedIn](https://www.linkedin.com/in/abin-isaac)
-
----
-
-````
-
----
-
-### ✅ LinkedIn Post (Final Version for Sharing)
-
-```markdown
-🚀 Login Automation Project (OrangeHRM + Facebook) — Powered by Java + Selenium + TestNG
-
-Just like testing, your growth as a QA engineer needs structure. That’s exactly what this project reflects.
-
-In the past few weeks, I’ve built a real-world test automation framework from scratch — focusing on:
-✅ Modular structure  
-✅ Clean waits and reusable methods  
-✅ Assertion-based test validations  
-✅ Real sites (OrangeHRM + Facebook)
-
-🔗 GitHub Repo: https://github.com/Abin-Isaac/LoginAutomation
-
-But this is just the beginning...
-
-🎯 Here’s what I’m working on next:
-- Manual test plan + defect lifecycle via GitHub Issues
-- Hybrid testing flow (manual + automation)
-- JMeter-based performance scripts
-- Regression suite refactor
-- TDD implementation and documentation
-- Collaboration simulation using PR reviews
-
-All of it will be shared openly as part of my 6-day QA sprint — visible, real, and recruiter-ready.
-
-💡 If you're also building in public or hiring for test engineers — let’s connect!
-
-#QA #TestAutomation #Selenium #GitHub #Java #TDD #TestPlanning #LinkedInInPublic #abiNwriteS #T3
-````
