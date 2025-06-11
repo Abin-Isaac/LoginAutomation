@@ -86,7 +86,7 @@ mvn test -DsuiteXmlFile=testng-facebook.xml
 
 ---
 
-## 🔮 What’s Coming Next
+## 🎯 What’s Coming Next 🚀
 
 I'm extending this framework as part of a focused 6-day QA enhancement sprint. Here's what’s planned and currently in development:
 
