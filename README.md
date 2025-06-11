@@ -93,11 +93,17 @@ I'm extending this framework as part of a focused 6-day QA enhancement sprint. H
 📂 `sql-testing/` – Realistic SQL queries and test validation
 
 📂 `regression_suite/` – Refactored flows for regression automation
+
 📂 `performance/` – JMeter-based load testing on login API
+
 📂 `hybrid-approach/` – Combining manual + automated test flows
+
 📂 `tdd-demo/` – TDD-based automation on password reset flow
+
 📂 `docs/test-plan/` – Manual test plan + test case documentation
+
 📂 `docs/reports/` – QA reports summarizing test cycles
+
 🔧 GitHub Issues/PRs – Simulated team collaboration and defect lifecycle tracking
 
 All enhancements will be structured as commits and clearly documented for visibility and review.
