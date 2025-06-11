@@ -1,4 +1,3 @@
-```markdown
 # 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
 ## Selenium-Based Automation Project 🚀
