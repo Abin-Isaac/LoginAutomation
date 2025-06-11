@@ -1,3 +1,4 @@
+```markdown
 # 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
 ## Selenium-Based Automation Project 🚀
@@ -20,20 +21,20 @@ Designed as a portfolio project, it reflects how I apply structured QA thinking,
 
 ## 📁 Folder Structure
 
+```
+
 LoginAutomation/
 ├── src/
-│ ├── main/java/com/demo/util/DemoUtils.java # Reusable utility functions
-│ └── test/java/com/abin/test/
-│ ├── orangehrm/OrangeHRMLoginTest.java
-│ └── facebook/FacebookLoginTest.java
-├── testng-orangehrm.xml # OrangeHRM suite
-├── testng-facebook.xml # Facebook suite
-├── pom.xml # Maven dependencies
-└── README.md # Documentation
+│   ├── main/java/com/demo/util/DemoUtils.java         # Reusable utility functions
+│   └── test/java/com/abin/test/
+│       ├── orangehrm/OrangeHRMLoginTest.java
+│       └── facebook/FacebookLoginTest.java
+├── testng-orangehrm.xml                               # OrangeHRM suite
+├── testng-facebook.xml                                # Facebook suite
+├── pom.xml                                            # Maven dependencies
+└── README.md                                          # Documentation
 
-yaml
-Copy
-Edit
+````
 
 ---
 
@@ -82,30 +83,38 @@ mvn test -DsuiteXmlFile=testng-orangehrm.xml
 
 # Facebook Login Test
 mvn test -DsuiteXmlFile=testng-facebook.xml
-🔮 What’s Coming Next
+````
+
+---
+
+## 🔮 What’s Coming Next
+
 I'm extending this framework as part of a focused 6-day QA enhancement sprint. Here's what’s planned and currently in development:
 
-📂 sql-testing/ – Realistic SQL queries and test validation
-📂 regression_suite/ – Refactored flows for regression automation
-📂 performance/ – JMeter-based load testing on login API
-📂 hybrid-approach/ – Combining manual + automated test flows
-📂 tdd-demo/ – TDD-based automation on password reset flow
-📂 docs/test-plan/ – Manual test plan + test case documentation
-📂 docs/reports/ – QA reports summarizing test cycles
+📂 `sql-testing/` – Realistic SQL queries and test validation
+📂 `regression_suite/` – Refactored flows for regression automation
+📂 `performance/` – JMeter-based load testing on login API
+📂 `hybrid-approach/` – Combining manual + automated test flows
+📂 `tdd-demo/` – TDD-based automation on password reset flow
+📂 `docs/test-plan/` – Manual test plan + test case documentation
+📂 `docs/reports/` – QA reports summarizing test cycles
 🔧 GitHub Issues/PRs – Simulated team collaboration and defect lifecycle tracking
 
 All enhancements will be structured as commits and clearly documented for visibility and review.
 
-👤 About Me
-Hi, I’m Abin Isaac, a QA Automation Engineer with 4 years of experience, including hands-on Selenium automation and technical support for Adobe products. I believe good testing isn’t just about finding bugs — it's about building confidence in software.
+---
+
+## 👤 About Me
+
+Hi, I’m **Abin Isaac**, a QA Automation Engineer with 4 years of experience, including hands-on Selenium automation and technical support for Adobe products. I believe good testing isn’t just about finding bugs — it's about building **confidence** in software.
 
 🎯 My goal is to keep evolving as a tester — by thinking deeply, testing smartly, and sharing openly.
 
-📬 Let’s connect: LinkedIn
+📬 Let’s connect: [LinkedIn](https://www.linkedin.com/in/abin-isaac)
 
-yaml
-Copy
-Edit
+---
+
+````
 
 ---
 
@@ -138,4 +147,5 @@ All of it will be shared openly as part of my 6-day QA sprint — visible, real,
 
 💡 If you're also building in public or hiring for test engineers — let’s connect!
 
-#QA #TestAutomation #Selenium #GitHub #Java #TDD #TestPlanning #LinkedInInPublic #ab
+#QA #TestAutomation #Selenium #GitHub #Java #TDD #TestPlanning #LinkedInInPublic #abiNwriteS #T3
+````
