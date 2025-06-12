@@ -123,6 +123,7 @@ mvn test -DsuiteXmlFile=testng-facebook.xml
 
 ---
 🏁 6-Day QA Skill Enhancement Sprint — In Progress
+
 🚀 I’ve officially started a 6-day focused sprint to enhance and document my QA automation skillset through structured, hands-on modules.
 
 Below is the full roadmap with daily objectives and progress tracking:
