@@ -11,7 +11,18 @@
 ![TestNG](https://img.shields.io/badge/TestNG-FF6347?style=for-the-badge&logo=testng&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) 
+[![View Wiki](https://img.shields.io/badge/View-Wiki-blue?style=for-the-badge)](https://github.com/Abin-Isaac/LoginAutomation/wiki)
+
+
+## 🧠 QA Wiki & Sprint Tracker
+
+📘 Check out the full **QA Sprint Tracker** and documentation on the [Wiki](https://github.com/Abin-Isaac/LoginAutomation/wiki)
+
+🚀 Highlights:
+- 6-Day QA Skill Sprint
+- SQL, Regression, Hybrid Testing
+- Defect Simulation with GitHub Issues
 
 ---
 
