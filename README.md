@@ -78,7 +78,6 @@ As part of my QA journey, I’ve added SQL-based validation relevant to test sce
 ### 🔧 Run It:
 ```bash
 sqlite3 login_test.db < sql-testing/sample_login_queries.sql
----
 
 ## 🧠 QA Learning Highlights (T3 Series)
 > _“Think it. Test it. Talk it — with T3.”_
