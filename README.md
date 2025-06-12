@@ -7,6 +7,7 @@
 ![TestNG](https://img.shields.io/badge/TestNG-FF6347?style=for-the-badge&logo=testng&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ---
 
@@ -23,6 +24,8 @@ Designed as a portfolio project, it reflects how I apply structured QA thinking,
 ```
 
 LoginAutomation/
+├── sql-testing/
+│ └── sample_login_queries.sql                         # SQL for QA validation practice
 ├── src/
 │   ├── main/java/com/demo/util/DemoUtils.java         # Reusable utility functions
 │   └── test/java/com/abin/test/
@@ -56,7 +59,25 @@ LoginAutomation/
 - 📄 Separate TestNG XMLs for test selection
 - 💥 Built-in assertions for both valid and invalid login attempts
 - 📦 Scalable architecture suitable for CI integration (Jenkins-ready)
+- 📄 SQL practice included for database testing concepts
 
+---
+
+## 🧠 New: SQL Testing Practice for QA
+
+As part of my QA journey, I’ve added SQL-based validation relevant to test scenarios like login failures, order processing, and user data checks.
+
+📄 **Location**: [`sql-testing/sample_login_queries.sql`](sql-testing/sample_login_queries.sql)
+
+### Includes:
+- Users, LoginAttempts, and Orders tables
+- Sample `INSERT` data
+- Queries using `SELECT`, `WHERE`, `JOIN`, `GROUP BY` for test data validation
+- Practical for validating test cases and DB logic
+
+### 🔧 Run It:
+```bash
+sqlite3 login_test.db < sql-testing/sample_login_queries.sql
 ---
 
 ## 🧠 QA Learning Highlights (T3 Series)
