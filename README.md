@@ -1,5 +1,9 @@
 # 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
+🏗️ **QA Sprint Progress**: Day 2 of 6 • ✅ 1/8 Modules Completed  
+📌 [View Sprint Tracker ↓](#-6-day-qa-skill-enhancement-sprint--in-progress)
+
+
 ## Selenium-Based Automation Project 🚀
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -107,28 +111,30 @@ mvn test -DsuiteXmlFile=testng-facebook.xml
 ````
 
 ---
+🏁 6-Day QA Skill Enhancement Sprint — In Progress
+🚀 I’ve officially started a 6-day focused sprint to enhance and document my QA automation skillset through structured, hands-on modules.
 
-## 🎯 What’s Coming Next 🚀
+Below is the full roadmap with daily objectives and progress tracking:
 
-I'm extending this framework as part of a focused 6-day QA enhancement sprint. Here's what’s planned and currently in development:
+Day	Module / Folder	Description	Status
 
-📂 `sql-testing/` – Realistic SQL queries and test validation
+1	📂 sql-testing/	Real-world SQL tables + QA validation queries (Users, LoginAttempts)	✅ Done
 
-📂 `regression_suite/` – Refactored flows for regression automation
+2	📂 docs/test-plan/	Manual test plan & test case writing (OrangeHRM login flow)	⬜ Not done
 
-📂 `performance/` – JMeter-based load testing on login API
+3	📂 regression_suite/	Regression testing using Selenium-TestNG refactor	⬜ Not done
 
-📂 `hybrid-approach/` – Combining manual + automated test flows
+4	📂 performance/	Basic performance testing using JMeter (login load test)	⬜ Not done
 
-📂 `tdd-demo/` – TDD-based automation on password reset flow
+5	📂 tdd-demo/	Password reset flow built using TDD principles	⬜ Not done
 
-📂 `docs/test-plan/` – Manual test plan + test case documentation
+6	📂 hybrid-approach/	Demonstrating manual + automation hybrid testing approach	⬜ Not done
 
-📂 `docs/reports/` – QA reports summarizing test cycles
+—	📂 docs/reports/	QA reports: execution summary, test status, blockers	⬜ Not done
 
-🔧 GitHub Issues/PRs – Simulated team collaboration and defect lifecycle tracking
+—	🔧 GitHub Issues / PRs	Simulated collaboration: bug reporting, code reviews, and resolution steps	⬜ Not done
 
-All enhancements will be structured as commits and clearly documented for visibility and review.
+✅ I’ll mark each module as complete once uploaded to GitHub, with a README and commit reference.
 
 ---
 
