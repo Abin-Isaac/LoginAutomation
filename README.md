@@ -1,6 +1,6 @@
 # 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
-🏗️ **QA Sprint Progress**: Day 2 of 6 • ✅ 1/8 Modules Completed  
+🏗️ **QA Sprint Progress**: Day 2 of 6 • ✅ 2/8 Modules Completed  
 📌 [View Sprint Tracker ↓](#-6-day-qa-skill-enhancement-sprint--in-progress)
 
 
@@ -132,7 +132,7 @@ Day	Module / Folder	Description	Status
 
 1	📂 sql-testing/	Real-world SQL tables + QA validation queries (Users, LoginAttempts)	✅ Done
 
-2	📂 docs/test-plan/	Manual test plan & test case writing (OrangeHRM login flow)	⬜ Not done
+2	📂 docs/test-plan/	Manual test plan & test case writing (OrangeHRM login flow)	✅ Done
 
 3	📂 regression_suite/	Regression testing using Selenium-TestNG refactor	⬜ Not done
 
