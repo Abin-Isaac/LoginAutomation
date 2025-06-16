@@ -1,4 +1,4 @@
-package com.abon.framework.utils;
+package com.abin.selenium.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

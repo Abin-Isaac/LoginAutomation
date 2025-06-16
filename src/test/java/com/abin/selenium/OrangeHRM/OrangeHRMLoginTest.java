@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.time.Duration;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import com.abon.framework.utils.DemoUtils;// ✅ Correct utility import
+import com.abin.selenium.utils.DemoUtils;// ✅ Correct utility import
 
 public class OrangeHRMLoginTest {
 

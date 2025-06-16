@@ -1,4 +1,4 @@
-package com.abon.framework.utils;
+package com.abin.selenium.utils;
 
 public class DemoUtils {
     public static void pause(int seconds) {

@@ -1,9 +1,9 @@
 
 
 // For Facebook
-package com.abin.test.facebook;
+package com.abin.selenium.facebook;
 
-import com.abon.framework.utils.DemoUtils;
+import com.abin.selenium.utils.DemoUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

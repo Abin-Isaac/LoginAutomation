@@ -1,0 +1,18 @@
+Add 2 new features testing in the project > Gneralize and pratice
+Seleneium practice > Locator > Continue > Generalize
+Java Prac > OOPS > Start > Generalize
+Hackerank > 1 easy 1 hard > Generalize
+Write manual and automated test cases for 2 hackerrank solved problem.
+Write bug reports and test cases for a real bug Selenium repo
+Write SOLID,dry and other prinicples for solved hackerank problem
+Understand Log, reports in slenium in real time
+Understand A to Z process from a project to software release from a tester's prespective
+New  testing based tersm and new AI based testing terms
+Katalon learn
+Understand a complete testing plan for a website/Case studies 
+Watch something to improve QA mindset like where the developers make the mistakes and why?
+Where tersrs makes mistakes and why?
+SW course continuation 
+
+
+
