@@ -13,6 +13,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) 
 [![View Wiki](https://img.shields.io/badge/View-Wiki-blue?style=for-the-badge)](https://github.com/Abin-Isaac/LoginAutomation/wiki)
+[![Jira Project](https://img.shields.io/badge/Jira-LoginAutomation-blue)](https://abinisaac111.atlassian.net/jira/your-work)
+
 
 
 ## 🧠 QA Wiki & Sprint Tracker
@@ -75,6 +77,18 @@ LoginAutomation/
 - 💥 Built-in assertions for both valid and invalid login attempts
 - 📦 Scalable architecture suitable for CI integration (Jenkins-ready)
 - 📄 SQL practice included for database testing concepts
+
+## 🧪 Jira Test Management Integration
+
+This project uses Jira to simulate real-world QA workflows.
+
+- 🔖 **Epics Created**: Login Module, Forgot Password
+- 🧾 **Story Example**: "Validate login with blank password" linked to `SCRUM-3`
+- 🐞 **Bug Logged**: Login button remains active even when password is empty
+- 🏷️ **Labels Used**: UI Bug, Critical, LoginModule
+- 📸 **Screenshots**: Located in `/docs/jira-screens/`
+
+🔗 [View Jira Board](https://abinisaac111.atlassian.net/jira/your-work)
 
 ---
 
