@@ -86,7 +86,7 @@ This project uses Jira to simulate real-world QA workflows.
 - 🧾 **Story Example**: "Validate login with blank password" linked to `SCRUM-3`
 - 🐞 **Bug Logged**: Login button remains active even when password is empty
 - 🏷️ **Labels Used**: UI Bug, Critical, LoginModule
-- 📸 **Screenshots**: Located in `/docs/jira-screens/`
+- 📸 **Screenshots**: Located in `/docs/JIraScreens/`
 
 🔗 [View Jira Board](https://abinisaac111.atlassian.net/jira/your-work)
 
