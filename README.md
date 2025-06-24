@@ -1,6 +1,6 @@
 # 🔐 Login Automation Framework (OrangeHRM & Facebook)
 
-🏗️ **QA Sprint Progress**: Day 2 of 6 • ✅ 1/8 Modules Completed  
+🏗️ **QA Sprint Progress**: Day 3 of 6 • ✅ 3/8 Modules Completed  
 📌 [View Sprint Tracker ↓](#-6-day-qa-skill-enhancement-sprint--in-progress)
 
 
@@ -13,6 +13,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) 
 [![View Wiki](https://img.shields.io/badge/View-Wiki-blue?style=for-the-badge)](https://github.com/Abin-Isaac/LoginAutomation/wiki)
+[![Jira Project](https://img.shields.io/badge/Jira-LoginAutomation-blue)](https://abinisaac111.atlassian.net/jira/your-work)
+
 
 
 ## 🧠 QA Wiki & Sprint Tracker
@@ -76,6 +78,18 @@ LoginAutomation/
 - 📦 Scalable architecture suitable for CI integration (Jenkins-ready)
 - 📄 SQL practice included for database testing concepts
 
+## 🧪 Jira Test Management Integration
+
+This project uses Jira to simulate real-world QA workflows.
+
+- 🔖 **Epics Created**: Login Module, Forgot Password
+- 🧾 **Story Example**: "Validate login with blank password" linked to `SCRUM-3`
+- 🐞 **Bug Logged**: Login button remains active even when password is empty
+- 🏷️ **Labels Used**: UI Bug, Critical, LoginModule
+- 📸 **Screenshots**: Located in `/docs/JIraScreens/`
+
+🔗 [View Jira Board](https://abinisaac111.atlassian.net/jira/your-work)
+
 ---
 
 ## 🧠 New: SQL Testing Practice for QA
@@ -132,9 +146,9 @@ Day	Module / Folder	Description	Status
 
 1	📂 sql-testing/	Real-world SQL tables + QA validation queries (Users, LoginAttempts)	✅ Done
 
-2	📂 docs/test-plan/	Manual test plan & test case writing (OrangeHRM login flow)	⬜ Not done
+2	📂 docs/test-plan/	Manual test plan & test case writing (OrangeHRM login flow)	✅ Done
 
-3	📂 regression_suite/	Regression testing using Selenium-TestNG refactor	⬜ Not done
+3	📂 regression_suite/	Regression testing using Selenium-TestNG refactor	✅ Done
 
 4	📂 performance/	Basic performance testing using JMeter (login load test)	⬜ Not done
 
