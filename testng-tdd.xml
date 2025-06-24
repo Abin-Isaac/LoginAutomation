@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Password Reset Suite">
+  <test name="Password Reset TDD">
+    <classes>
+      <class name="com.abin.selenium.tdd.automation.withtestng.PasswordResetTest"/>
+    </classes>
+  </test>
+</suite>

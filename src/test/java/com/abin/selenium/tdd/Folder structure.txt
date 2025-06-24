@@ -1,0 +1,27 @@
+LoginAutomation/
+├── tdd/
+│   ├── requirements/
+│   │   └── PasswordReset_Requirements.md
+│   ├── test-plan/
+│   │   └── PasswordReset_TestPlan.md
+│   ├── test-design/
+│   │   ├── PasswordReset_TestCases.md
+│   │   ├── TestData.csv
+│   │   └── RTM_PasswordReset.md
+│   ├── automation/
+│   │   ├── with-testng/
+│   │   │   └── PasswordResetTest.java
+│   │   ├── without-testng/
+│   │   │   └── PasswordReset_NoTestNG.java
+│   │   ├── pages/
+│   │   │   └── PasswordResetPage.java
+│   │   ├── utils/
+│   │   │   └── PasswordResetUtils.java
+│   │   └── base/
+│   │       └── BaseTest.java
+│   ├── screenshots/
+│   │   └── [Captured images]
+│   ├── recordings/
+│   │   └── ManualFlow_PasswordReset.mp4
+│   └── reports/
+│       └── QA_Status_Report.md

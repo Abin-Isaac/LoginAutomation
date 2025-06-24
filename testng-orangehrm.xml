@@ -1,7 +1,7 @@
 <suite name="OrangeHRM Test Suite">
   <test name="OrangeHRM Login Test">
     <classes>
-      <class name="com.abin.test.orangehrm.OrangeHRMLoginTest"/>
+      <class name="com.abin.selenium.tdd.automation.withtestng.PasswordResetTest.java"/>
     </classes>
   </test>
 </suite>

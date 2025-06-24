@@ -1,7 +1,7 @@
-
+	
 
 // For Facebook
-package com.abin.selenium.facebook;
+package com.abin.test.facebook;
 
 import com.abin.selenium.utils.DemoUtils;
 import org.openqa.selenium.By;
