@@ -15,7 +15,7 @@ public class PasswordResetTest extends BaseTest {
 
         PasswordResetPage resetPage = new PasswordResetPage(driver);
         resetPage.enterUsername("Admin");
-        DemoUtils.pause(1);  // Wait after entering username
+        DemoUtils.pause(2);  // Wait after entering username
 
         resetPage.clickResetButton();
         DemoUtils.pause(2);  // Wait for confirmation message to appear
