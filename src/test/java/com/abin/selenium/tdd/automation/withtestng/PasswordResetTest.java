@@ -11,7 +11,7 @@ public class PasswordResetTest extends BaseTest {
     @Test
     public void verifyPasswordResetFlow() {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/requestPasswordResetCode");
-        DemoUtils.pause(1);  // Wait after page load
+        DemoUtils.pause(2);  // Wait after page load
 
         PasswordResetPage resetPage = new PasswordResetPage(driver);
         resetPage.enterUsername("Admin");
